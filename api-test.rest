@@ -1,0 +1,23 @@
+#
+GET https://iot-amerial.netlify.app/api/sensor-readings
+Authorization: 'das'
+Content-Type: application/json
+
+# {
+#     "data":{
+#           "date": "2023-08-16",
+#           "time": "17:02:15.000",
+#           "sal": 0.24,
+#           "sal2": 0.2,
+#           "ph": 8.35,
+#           "ph2": 8.28,
+#           "temp": 29.5,
+#           "temp2": 0,
+#           "dox": 0.62,
+#           "dox2": 5.93,
+#           "NH3": 5.93,
+#           "createdAt": "2023-08-16T08:52:43.888Z",
+#           "updatedAt": "2023-08-16T08:52:43.888Z",
+#           "publishedAt": "2023-08-16T08:52:43.886Z"
+#         }
+# }
