@@ -19,7 +19,7 @@ export default async function handler(req, res) {
               resolve();
             })
             .catch(err => {
-                // console.log(err)
+                console.log(err.response.data)
               res.status(500).json({
                   message: "not authorized!"
               })  
